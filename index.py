@@ -11,6 +11,7 @@ import os
 try:
     GOOGLE_API_KEY ="AIzaSyCBu7V1fpkjCBc8VORgoojSFqFj7J4Ro3Q"
 except (KeyError, AttributeError):
+    
     st.error("🚨 GOOGLE_API_KEY not found. Please set it as an environment variable or in Streamlit secrets.")
     st.stop()
 
