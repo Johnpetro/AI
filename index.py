@@ -9,7 +9,7 @@ import os
 # For local development, set GOOGLE_API_KEY as an environment variable
 # For Streamlit Cloud, set it in st.secrets
 try:
-    GOOGLE_API_KEY =""
+    GOOGLE_API_KEY ="AIzaSyCBu7V1fpkjCBc8VORgoojSFqFj7J4Ro3Q"
 except (KeyError, AttributeError):
     st.error("🚨 GOOGLE_API_KEY not found. Please set it as an environment variable or in Streamlit secrets.")
     st.stop()
